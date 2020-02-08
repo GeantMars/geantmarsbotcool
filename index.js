@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
- 
+const token = progress.env.token
 const client = new Discord.Client();
  
 var prefix = "G!"
  
-client.login("Njc1NDg5NzE0NDA4NzgzODgy.Xj39zQ.k68r5LZ3QjDDGs4hl1uMOxG_8So")
+client.login("token")
  
 client.on("ready", () =>{
     console.log("je suis prêt")
